@@ -1,0 +1,72 @@
+{
+  "id": "./index.html",
+  "name": "İsveç (Stockholm & Uppsala) Seyahat Kartı · 24–30 Ekim 2026",
+  "short_name": "İsveç 2026",
+  "description": "Stockholm & Uppsala 24–30 Ekim 2026 · 5 Kişi · Program, 484 Yeme İçme Tatlı, 70 Mağaza, Harcama, Bütçe ve Sesli Sözlük",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0E151B",
+  "theme_color": "#1F4E8C",
+  "categories": ["travel", "navigation", "finance", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Günlük Program (24–30 Ekim)",
+      "short_name": "Program",
+      "description": "7 günlük Stockholm ve Uppsala seyahat programı",
+      "url": "./index.html#plan",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "484 Yeme İçme Tatlı",
+      "short_name": "Yeme İçme",
+      "description": "Stockholm (416) ve Uppsala (68) restoran, fika ve tatlı rehberi",
+      "url": "./index.html#food",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Harcama Ekle & Böl",
+      "short_name": "Harcama",
+      "description": "SEK / EUR / TRY harcama kaydı ve hane/kişi hesaplaşması",
+      "url": "./index.html#spend",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Canlı Çeviri & Sözlük",
+      "short_name": "Çeviri",
+      "description": "İsveççe / İngilizce sesli sözlük ve Google Translate bağlantısı",
+      "url": "./index.html#talk",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
